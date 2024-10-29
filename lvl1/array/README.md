@@ -12,3 +12,11 @@ Array include:
 - random access: O(1)
 - thêm và xóa phần tử ở cuối mảng (chỉ mảng động): O(1)
 - thêm và xóa 1 phần tử bất kì trong mảng: O(n)
+
+### Advanced
+
+- kadane's algorithm
+- sliding window fixed size
+- sliding window variable size
+- two pointers
+- prefix sums
