@@ -3,21 +3,24 @@
 - Find All Numbers Disappeared in an Array
 - Range Sum Query
 - Can Place Flowers
+- Merge sorted array
+- Sum of unique elements
+- Range sum query immutable
+- Pascals triangle
+- Plus one
+- Remove element
+- Running sum of 1d array
+- Best time to buy and sell stock
+- Find pivot index
+- Remove Duplicates from Sorted Array
+- Remove Element
+- Concatenation of Two Arrays
 
 # Optional
 
 - Product of Array Except Self
 - Best Time to Buy and Sell Stock II
 - Valid Sudoku
-
-## Static Array
-
-- Remove Duplicates from Sorted Array
-- Remove Element
-
-## Dynamic Array
-
-- Concatenation of Two Arrays
 
 ## Kadane's Algorithm
 

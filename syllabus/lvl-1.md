@@ -30,7 +30,7 @@
 
 ### 16. Interval
 
-### 17. Heap
+### 17. Heap - Shortest Paths
 
 ### 18. Greedy
 
