@@ -26,3 +26,37 @@ Array include:
 - sliding window variable size
 - two pointers
 - prefix sums
+
+### Prefix Sum: Hay sử dụng trong các bài sub array
+
+```
+Problem: Cho array A và q queries:
+  query(i,j) => return sum(A[i] + A[i+1] + ... + A[j])
+
+Prefix Sum solution:
+  prefix[i] = A[0] + A[1] + ... + A[j]
+  query(i,j) = prefix[j] - prefix[i - 1]
+
+time: O(p+q)
+```
+
+```
+n = length of nums
+tinh truoc tat cac tong cua nums[0: i] voi i chay tu 0 -> n - 1
+va chua trong 1 array do dai n + 1: pool
+-> sum(nums[left: right + 1]) -> pool[right + 1] - pool[left]
+```
+
+> Cho 1 array A of interger
+>
+> prefix[i] = sum(A[0],...,A[i])
+
+A = [1, 3, 5, 7, 9]
+-> prefix = [1, 4, 9, 16, 25]
+
+```
+sum = 0
+for(i:A)
+  sum += A[i]
+  prefix.append(sum)
+```
